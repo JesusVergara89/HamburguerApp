@@ -1,0 +1,274 @@
+* {
+  font-family: 'OrkneyRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color_3);
+}
+
+:root {
+  --color_1: #F4E0B9;
+  --color_2: #A8A196;
+  --color_3: #7D7463;
+  --color_4: #FE0000;
+}
+
+
+button {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+}
+
+.Hamburguer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  background-color: var(--color_3);
+}
+
+.create_new_product{
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.create_new_product_container_form{
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--color_1);
+  padding: 0.6rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+.create_new_product_btn {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--color_4);
+}
+
+.create_new_product_btn:hover{
+  cursor: pointer;
+}
+
+.main_Card_food {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color_3);
+  padding: 0.5rem;
+  gap: 1rem;
+}
+
+.Card_food {
+  background-color: var(--color_1);
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+}
+
+.Card_food_tittle {
+  text-align: center;
+  font-weight: bold;
+}
+
+.Card_food_size {
+  text-align: left;
+  font-weight: 800;
+  color: var(--color_4);
+}
+
+.Card_food_description{
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.Card_food_price{
+  text-align: right;
+  font-size: 1.2rem;
+  color: var(--color_4);
+  text-shadow: 1px 1px 2px black;
+  padding-bottom: 1.2rem;
+}
+
+.Card_img {
+  width: 12rem;
+  height: auto;
+  border-radius: 7px;
+}
+
+.Card_container_btn {
+  display: flex;
+  width: 95%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.Card_btn {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--color_4);
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  font-weight: bold;
+}
+
+.Card_btn_delete {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--color_4);
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  font-weight: bold;
+}
+
+.Card_btn-update{
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--color_4);
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  font-weight: bold;
+}
+
+.Card_btn:hover{
+  cursor: pointer;
+}
+
+.Card_btn_delete:hover{
+  cursor: pointer;
+}
+
+.Card_btn-update:hover{
+  cursor: pointer;
+}
+
+.Hamburger_form {
+  width: 12rem;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color_1);
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+  gap: 0.4rem;
+}
+
+.Hamburger_form input{
+  border: none;
+  text-align: center;
+  width: 90%;
+  height: fit-content;
+  padding: 0.1rem;
+  border-radius: 0.3rem;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.main_form {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container_btns_update {
+  width: 12rem;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color_1);
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+}
+
+.Container_tittle{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color_4);
+  text-shadow: 1px 1px 2px black;
+  padding-bottom: 0.8rem;
+}
+
+.Containers_options_update{
+  width: 100%;
+  height: 80px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.Containers_options_update button{
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--color_4);
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  font-weight: bold;  
+}
